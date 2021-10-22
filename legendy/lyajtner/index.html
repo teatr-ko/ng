@@ -1,0 +1,154 @@
+
+
+
+
+
+
+<html>
+<head>
+<title>
+    ЛЯЙТНЕР Алоїс
+ | Коломийський академічний обласний український драматичний театр імені Івана Озаркевича</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="{% block keywords %}{% endblock %}"/>
+<script type="text/javascript" src="/korg/portals/teatr/js/ddlevelsmenu.js"></script>
+<script type="text/javascript" src="/korg/js/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="/korg/js/jquery.lightbox-0.5-pack.js"></script>
+<link rel="stylesheet" type="text/css" href="/korg/css/jquery.lightbox-0.5.css" media="screen" />
+
+<link href="/korg/portals/teatr/css/ddlevelsmenu-base.css" rel="stylesheet" type="text/css"><link>
+<link href="/korg/portals/teatr/css/ddlevelsmenu-sidebar.css" rel="stylesheet" type="text/css"><link>
+<link href="/korg/portals/teatr/css/ddlevelsmenu-topbar.css" rel="stylesheet" type="text/css"><link>
+<link href="/korg/portals/teatr/css/style.css" rel="stylesheet" type="text/css"><link>
+<link href="/korg/portals/teatr/css/news.css" rel="stylesheet" type="text/css"><link>
+
+
+<link rel="stylesheet" type="text/css" href="/korg/css/skin.css"/>
+<link rel="stylesheet" type="text/css" href="/korg/css/jquery.jcarousel.css"/>
+
+<script language="JavaScript" src="/news_informer/" type="text/javascript"></script>
+
+<script type="text/javascript" src="/korg/js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('a:has(img.lightbox),a[rel*=lightbox]').lightBox();
+	$('#mycarousel').jcarousel({scroll:4});
+});
+</script>
+
+
+<link rel="shortcut icon" type="image/x-icon" href="/korg/portals/teatr/favicon.ico" />
+<link rel="icon" type="image/x-icon" href="/korg/portals/teatr/favicon.ico" />
+
+<script src="//www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+_uacct = "UA-2009340-1";
+urchinTracker();
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-62725968-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</head>
+<body class = "twoColFixLtHdr">
+<div id = "container">
+
+<div id="header" align="center">{%> html_part with {id: header % }}</div>
+
+
+
+
+<script type = "text/javascript">
+ddlevelsmenu.setup("ddtopmenubar", "topbar") //ddlevelsmenu.setup("mainmenuid", "topbar")
+</script>
+
+<div id = "ddtopmenubar" class = "wireframemenu">
+{% tree_menu main_teatr '' 'ul' 'li' %}
+</div>
+
+
+
+<div id="afishaContent">
+	<a href="/afisha/current/" style="color: #0A1281;" title = "Переглянути афішу на поточний місяць"> Афіша</a>
+    
+	{% html_part "left_column" %}
+<table width="95%" border="0"><tr><td><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2F%25D0%259A%25D0%25BE%25D0%25BB%25D0%25BE%25D0%25BC%25D0%25B8%25D0%25B9%25D1%2581%25D1%258C%25D0%25BA%25D0%25B8%25D0%25B9-%25D0%25B4%25D1%2580%25D0%25B0%25D0%25BC%25D0%25B0%25D1%2582%25D0%25B8%25D1%2587%25D0%25BD%25D0%25B8%25D0%25B9-%25D1%2582%25D0%25B5%25D0%25B0%25D1%2582%25D1%2580-%25D1%2596%25D0%25BC-%25D0%2586-%25D0%259E%25D0%25B7%25D0%25B0%25D1%2580%25D0%25BA%25D0%25B5%25D0%25B2%25D0%25B8%25D1%2587%25D0%25B0%2F463975003622818&amp;width=180&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:180px; height:360px;" allowTransparency="true"></iframe></td></tr></table>
+	<!-- end #afishaContent --></div>
+	
+
+	
+<div id = "newsContent">
+
+
+
+	<a href = "/news" style="color: #0A1281;" title = "Переглянути всі новини"> Усі новини</a>
+	
+	<!-- tag_name, news_count, "L"-with anounce, se1 - news_header_style, se2 - news_anounce_style, se6 -news_data_style-->
+	{% portal_informer 7 "" "se1" "se2" "se6"%}
+	
+
+	<!-- end #newsContent --></div>
+<div id = "mainContent">
+
+	<div id="content"><p class="western" style="text-align: center;"><strong>ЛЯЙТНЕР</strong></p>
+<p class="western" style="text-align: center;"><strong>Алоїс</strong></p>
+<p class="western" style="text-align: center;"><strong><br/></strong></p>
+<p class="western"><em>Місце народження та дати життя невідомі. Офіцер австрійської армії - ц</em><em>ісарсько-королівський поручик полку мисливців графа Сірмаї (до листопада 1849 року), який дислокувався у м. Коломиї.</em><em> Після звільнення з військової служби за станом здоров</em><em>’</em><em>я зосередився виключно на театральній&nbsp;справі.</em></p>
+<p class="western"><strong>Директор, режисер та актор «Коломийського товариства акторів під </strong><strong>предводительством Ляйтнера» (1848 – 1851 р.р.).</strong> 15 березня 1850 року звернувся до Головної руської ради у Львові з пропозицією увійти з клопотанням до австрійського уряду щодо дозволу утворити «Руський національний театр», який би обслуговував увесь терен Галичини. Тобто йшлося про мандрівну трупу. І все це - у «наслідування прагнення коломийського греко-католицького священника пана Озаркевича» та з метою «пробудження духовності народу та виховання смаку до краси…» Автор аргументує своє бажання тим, що він досконально знає українську мову та «із природженого потягу до театру набував відповідної кваліфікації», підібрав акторів, які могли б скласти  трупу українського театру і висловив готовність очолити трупу. <strong>Це є перший проект створення професійного українського&nbsp;театру.</strong></p>
+<p class="western" lang="ru-RU">Збереглася рецензія на гру А. Ляйтнера: У газеті  «Зоря галицька» (друкований орган Головної Руської Ради у Львові - першої політичної організації галицьких українців)  від 9 березня 1850 року в рецензії автора, що сховався під криптонімом «К» на виставу«Сватання, або Жених навіжений» І. Озаркевича говориться: «В хорошо прирядженім театрі відограли любовник и драматического іскусства комедіо-оперу «Сватанє, ілі Жених навіжений». Стефанка навіженого іскусно віддав госп(один) Ляйтнер, ц(ісарсько)-к(оролівський) поручик полка охотників графа Сирмаї, котрий (Ляйтнер – автор) удостоїв нас приняти на себе дирекцію нашого театр. Дім був переповнений, общество совсім&nbsp;удовольнено».</p>
+<p class="western" lang="ru-RU">Член – кореспондент НАМ України, заслужений діяч мистецтв України, дослідник історії Коломийського театру Коломієць Р. Г. – оцінюючи значення створення театру в далекому 1848 році констатує: «… зміст і конкретика культурницької діяльності Івана Озаркевича, священника, громадського діяча, просвітителя, поета, перекладача, художника, організатора театральної справи, мала б викладатися у середніх школах, а творчість організованого ним Коломийського театру, який активно творить і сьогодні, повинна вивчатися в університетах культури і мистецтва. Викладатися і вивчатися насамперед тому, що все це має не вузькорегіональне значення, але є надбанням усієї української культури. Так. як і слід ввести до культурного обігу українців ім`я Алоїса Ляйтнера, до якої нації б він не належав – німець? чех? - офіцера австрійської армії, який чудово володів українською мовою, організатора театральної справи у Коломиї, режисера і актора Коломийського&nbsp;театру».</p>
+<p class="western"> </p>
+<p class="western" lang="ru-RU"><strong>Режисер перших вистав театру</strong>:</p>
+<p class="western" lang="ru-RU"><strong>комедіо-опери «Дівка на виданню або На милування нема силування» І. Озаркевича</strong> (за п.єсою І. Котляревського «Наталка Полтавка», 1848&nbsp;р.),</p>
+<p class="western" lang="ru-RU"><strong>комедії «Жовнєр-чарівник</strong><strong> або Що не поможе наука – то поможе батіг</strong><strong>»</strong> <strong>І. Озаркевича </strong>(за п’єсою І. Котляревського «Москаль-чарівник», 1848&nbsp;р.),</p>
+<p class="western" lang="ru-RU"><strong>комедія «Терпен-спасен» Р. Моха </strong>(1849&nbsp;р.)</p>
+<p class="western" lang="ru-RU"><strong>комедія «Сценічний жарт» П. Леонтовича </strong>(1849 р.)<strong>; </strong></p>
+<p class="western" lang="ru-RU"><strong>«Згублена дитина»</strong> <strong>І. Озаркевича</strong> (за п’єсою Коцебу, 1849&nbsp;р.),</p>
+<p class="western" lang="ru-RU"><strong>історичної драми</strong> <strong>«Дари предків» І. Озаркевича </strong>(1850 р.)<strong>, </strong></p>
+<p class="western" lang="ru-RU"><strong>історичної драми «Розвіда» І. Озаркевича</strong> (1850&nbsp;р.),</p>
+<p class="western" lang="ru-RU"><strong>комедіо-опера «Сватання, або Жених навіжений» І. Озаркевича</strong> (за п’єсою Г. Квітки-Основ’яненка «Сватання на Гончарівці», 1850&nbsp;р.),</p>
+<p class="western" lang="ru-RU"><strong>опери «Весілля»</strong> І. Озаркевича (за  комічною оперою С. Писаревського «Купала на Івана», 1850&nbsp;р.)</p>
+<p class="western"> </p>
+<p class="western" lang="ru-RU"><strong>Акторські роботи</strong> (амплуа –&nbsp;актор-комік):</p>
+<p class="western" lang="ru-RU"><strong>Десятський (Виборний) -</strong> комедіо-опера «Дівка на виданню або На милування нема силування» І. Озаркевича (за п.єсою І. Котляревського «Наталка&nbsp;Полтавка»)</p>
+<p class="western" lang="ru-RU"><strong>Жовнір - </strong>комедія «Жовнєр-чарівник або Що не поможе наука – то поможе батіг» І. Озаркевича (за п’єсою І. Котляревського&nbsp;«Москаль-чарівник»)</p>
+<p class="western" lang="ru-RU"><strong>Стефанко (Стецько) –</strong> комедіо-опера «Сватання, або Жених навіжений» І. Озаркевича (за п’єсою Г. Квітки-Основ’яненка «Сватання на Гончарівці», 1850&nbsp;р.)</p>
+<p class="western">Участь Алоїса Ляйтнера в інших постановках театру&nbsp;невідома.</p></div>
+
+
+	<!-- end #mainContent --></div>
+
+
+
+
+
+
+<div id = "content_wrap"></div>
+ 	<div id = "footer">
+
+    	<center><table width="900">
+					<tr>
+						<td align="center">{% html_part "bottom" %}</td>
+						<td align="center">
+						</td>
+					</tr>
+		</table></center>
+  	<!-- end #footer --></div>
+
+<!-- end #container --></div>
+
+</body>
+</html>
+

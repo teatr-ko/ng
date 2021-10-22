@@ -1,0 +1,143 @@
+
+
+
+
+
+
+<html>
+<head>
+<title>
+    ЧУПЕРЧУК Ярослав Маркіянович
+ | Коломийський академічний обласний український драматичний театр імені Івана Озаркевича</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="{% block keywords %}{% endblock %}"/>
+<script type="text/javascript" src="/korg/portals/teatr/js/ddlevelsmenu.js"></script>
+<script type="text/javascript" src="/korg/js/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="/korg/js/jquery.lightbox-0.5-pack.js"></script>
+<link rel="stylesheet" type="text/css" href="/korg/css/jquery.lightbox-0.5.css" media="screen" />
+
+<link href="/korg/portals/teatr/css/ddlevelsmenu-base.css" rel="stylesheet" type="text/css"><link>
+<link href="/korg/portals/teatr/css/ddlevelsmenu-sidebar.css" rel="stylesheet" type="text/css"><link>
+<link href="/korg/portals/teatr/css/ddlevelsmenu-topbar.css" rel="stylesheet" type="text/css"><link>
+<link href="/korg/portals/teatr/css/style.css" rel="stylesheet" type="text/css"><link>
+<link href="/korg/portals/teatr/css/news.css" rel="stylesheet" type="text/css"><link>
+
+
+<link rel="stylesheet" type="text/css" href="/korg/css/skin.css"/>
+<link rel="stylesheet" type="text/css" href="/korg/css/jquery.jcarousel.css"/>
+
+<script language="JavaScript" src="/news_informer/" type="text/javascript"></script>
+
+<script type="text/javascript" src="/korg/js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('a:has(img.lightbox),a[rel*=lightbox]').lightBox();
+	$('#mycarousel').jcarousel({scroll:4});
+});
+</script>
+
+
+<link rel="shortcut icon" type="image/x-icon" href="/korg/portals/teatr/favicon.ico" />
+<link rel="icon" type="image/x-icon" href="/korg/portals/teatr/favicon.ico" />
+
+<script src="//www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+_uacct = "UA-2009340-1";
+urchinTracker();
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-62725968-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</head>
+<body class = "twoColFixLtHdr">
+<div id = "container">
+
+<div id="header" align="center">{%> html_part with {id: header % }}</div>
+
+
+
+
+<script type = "text/javascript">
+ddlevelsmenu.setup("ddtopmenubar", "topbar") //ddlevelsmenu.setup("mainmenuid", "topbar")
+</script>
+
+<div id = "ddtopmenubar" class = "wireframemenu">
+{% tree_menu main_teatr '' 'ul' 'li' %}
+</div>
+
+
+
+<div id="afishaContent">
+	<a href="/afisha/current/" style="color: #0A1281;" title = "Переглянути афішу на поточний місяць"> Афіша</a>
+    
+	{% html_part "left_column" %}
+<table width="95%" border="0"><tr><td><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2F%25D0%259A%25D0%25BE%25D0%25BB%25D0%25BE%25D0%25BC%25D0%25B8%25D0%25B9%25D1%2581%25D1%258C%25D0%25BA%25D0%25B8%25D0%25B9-%25D0%25B4%25D1%2580%25D0%25B0%25D0%25BC%25D0%25B0%25D1%2582%25D0%25B8%25D1%2587%25D0%25BD%25D0%25B8%25D0%25B9-%25D1%2582%25D0%25B5%25D0%25B0%25D1%2582%25D1%2580-%25D1%2596%25D0%25BC-%25D0%2586-%25D0%259E%25D0%25B7%25D0%25B0%25D1%2580%25D0%25BA%25D0%25B5%25D0%25B2%25D0%25B8%25D1%2587%25D0%25B0%2F463975003622818&amp;width=180&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:180px; height:360px;" allowTransparency="true"></iframe></td></tr></table>
+	<!-- end #afishaContent --></div>
+	
+
+	
+<div id = "newsContent">
+
+
+
+	<a href = "/news" style="color: #0A1281;" title = "Переглянути всі новини"> Усі новини</a>
+	
+	<!-- tag_name, news_count, "L"-with anounce, se1 - news_header_style, se2 - news_anounce_style, se6 -news_data_style-->
+	{% portal_informer 7 "" "se1" "se2" "se6"%}
+	
+
+	<!-- end #newsContent --></div>
+<div id = "mainContent">
+
+	<div id="content"><p class="western" style="text-align: center;"><strong>ЧУПЕРЧУК</strong></p>
+<p class="western" style="text-align: center;"><strong>Ярослав&nbsp;Маркіянович</strong></p>
+<p class="western" lang="ru-RU" style="text-align: center;"><strong>(17.03.1911 – 9.09.2004&nbsp;р.р.)</strong></p>
+<p class="western"> </p>
+<p class="western" lang="ru-RU"><em><img alt="" class="l" height="300" src="/korg/kol/portals/teatr/page/legendy/chuperchuk/00_gallery.jpg" width="200"/>Народився в с. Криворівня Верховинського району Івано-Франківської області. Помер у місті Львові. </em><em>Український балетмейстер, етнограф,&nbsp;артист.</em></p>
+<p class="western">Ярослав Чуперчук в 1926 році закінчив сім класів Криворівнянської школи. 1927 року вступив у танцювальну школу Василя Авраменка, яку успішно закінчив 1929 року. Трудову діяльність почав солістом балету в ансамблі «Дніпро» (Тернопіль). У 1929–1931 роках працював танцюристом у трупі театру «Веселка» під керівництвом Олександра Тимченка (Косів). У 1931–1933 роках служив у польському війську. Після служби повернувся у театр «Веселка». 1934 року зіграв роль Юзева у фільмі «Гріх батьків». На Варшавській кіностудії зіграв роль улана в фільмі «Улани». 1935 року прийшов працювати в театр «Промінь» під керівництвом Городничого. Невдовзі доля звела його із Тернопільським кооперативним театром (режисер — Панас Карабіневич). В 1937 – 38 р.р. Ярослав Чуперчук актор-танцюрист Українського молодого театру «Заграва» під керівництвом Володимира Блавацького. В вересні 1938 році, після злиття Українського народного театру імені Тобілевича та театру «Заграва» в Коломиї створено Театр імені Івана Котляревського. Актором цього театру став Ярослав Чуперчук. У 1939 році молодого резервіста призвали на польсько-німецьку війну. Бойове хрещення пройшов у бою біля Дембіци. Осінню 1939 року повернувся з війни і поїхав до Станіславова (Івано-Франківська). Його прийняли актором-танцюристом у театр імені Івана Франка. Зробив постановку танців до вистави «Украдене щастя» у Київському академічному театрі імені Івана Франка. Після цього поставив танець «Гуцулочка» в ансамблі Павла Вірського. 1940 року в Станіславові при обласній філармонії організувався Державний гуцульський ансамбль пісні і танцю. Балетну групу запросили очолити Ярослава Чуперчука. Навесні 1941 року Ярослав Чуперчук  знявся у ролі побратима Олекси Довбуша Варцаби у художній кінострічці «Пісня про Довбуша» режисера Івана Кавалерідзе. Всі відзняті матеріали були&nbsp;втрачені.</p>
+<p class="western" lang="ru-RU"><img alt="Артистка Гуцульського балету під керівництвом Я. Чуперчука, 1943 р." class="l" height="400" src="/korg/kol/portals/teatr/page/legendy/chuperchuk/01_gallery.jpg" title="Артистка Гуцульського балету під керівництвом Я. Чуперчука, 1943 р." width="240"/>Три роки прожив в окупованій фашистами території. Взимку 1942 року Іван Когутяк — директор Українського окружного театру в Коломиї — запросив хореографа очолити танцюристів. Так у складі театру появився Гуцульський балет під керівництвом Ярослава Чуперчука. Танцювальна трупа «Гуцульський балет» складалася з Ілярія Кушніренка, Віри Особи, Миколи Остаповича, Анни Отаманюк, Петра Перегінця, Володимира Петрика, сестер Сікорських, сестер Стрельбицьких, Марійки та Василини Чуперчук. Театр збільшив кількість постановок української класики, особливо творів національно-патріотичного звучання, і це було відчутно не тільки в доборі репертуару, але й у режисерській концепції постановок. Натомість органи окупаційної адміністрації обстоювали розважальний репертуар, і у коломийській афіші з`явилася певна кількість оперет і опер. Зокрема, в репертуарі театру: оперета «Циганський барон» Й. Штрауса, комічна опера «Корневільські дзвони» Р. Планкєтта, оперета «Пташник з Тіролю» К. Целлєра, «Катерина» М. Аркаса, опера «Запорожець за Дунаєм» С. Гулака-Артемовського, народна оперета «Сорочинський ярмарок» М. Старицького (за М. Гоголем), фантастична оперета «Вій» М. Кропивницького (за М. Гоголем), опера «Наталка Полтавка» І. Котляревського, музична картина «Вечорниці» П. Ніщинського, народна драма з музикою, співами і танцями «Ой не ходи Грицю та й на вечорниці» М. Старицького, історичні драми «Серед бурі» Б. Грінченка, «Гетьман Дорошенко» Л. Старицької-Черняхівської та інші. Балетмейстером та постановником танців у вищезазначених роботах виступав Ярослав Чуперчук. Зокрема, газета «Львівські вісті» від 12 грудня 1943 року писала про постановку опери «Запорожець за Дунаєм» С. Гулака-Артемовського: «Грі артистів допомогла чарівна музика, добре уложені та поставлені режисером мізансцени та розкішний балет під проводом Чуперчука. На малій сцені випровадили п. Чуперчук та п. Черкунова (виконавиця і співавтор Я. Чуперчука в постановці хореографічних номерів) балет з 60-ти осіб. Балет затримує наскрізь український стиль та у своїх продукціях висказує бадьоре бойове почування. Виступи самої п. Черкунової витають глядачі довгими та рясними оплесками».<a href="/korg/kol/portals/teatr/page/legendy/chuperchuk/02_gallery.jpg" rel="Афіша вистави Запорожець за Дунаєм. С. Гулака-Артемовського, 1943 р." title="Афіша вистави Запорожець за Дунаєм. С. Гулака-Артемовського, 1943 р."><img class="r lightbox" height="112" src="/korg/kol/portals/teatr/page/legendy/chuperchuk/02__gal_ix.jpg" title="Афіша вистави Запорожець за Дунаєм. С. Гулака-Артемовського, 1943 р." width="84"/></a></p>
+<p class="western" lang="ru-RU">1943 року колектив готувався до поїздки у Чехію. Але саме в цей час відбувся конфлікт між Я. Чуперчуком і адміністрацією театру. Мабуть, він не міг поїхати на гастролі, оскільки саме в цей час вступив до Коломийського куща ОУН. Отримав псевдо «Вишня» і вирішив повернутися до Криворівні. Після війни мав псевдо «Вишневий» і&nbsp;«Чорнигора».</p>
+<p class="western" lang="ru-RU">1947 року зібрав 20 ентузіастів при Будинку народної творчості у Львові за адресою вул. Короленка,7 створив ансамбль «Чорногора», що його потім перейменували на «Галичина». У Львівському академічному драматичному театрі імені Марії Заньковецької ставить танці до вистави «Олекса Довбуш». Після тріумфальних виступів осінню 1948 року в Києві кіностудія документальних фільмів зняла фільм про колектив Чуперчука — «Карпатські&nbsp;візерунки».</p>
+<p class="western"><a href="/korg/kol/portals/teatr/page/legendy/chuperchuk/03_gallery.jpg" rel="Гуцульський балет під керівництвом Я. Чуперчука, 1943 р." title="Гуцульський балет під керівництвом Я. Чуперчука, 1943 р."><img class="l lightbox" height="183" src="/korg/kol/portals/teatr/page/legendy/chuperchuk/03_index.jpg" title="Гуцульський балет під керівництвом Я. Чуперчука, 1943 р." width="300"/></a>14 грудня 1949 року Чуперчука  засуджено Особливою нарадою при МДБ МВС на виселення із конфіскацією майна на спецпоселення під нагляд органів МВС в Читинську область по політичних мотивах як посібника учасникам ОУН. Там був засуджений на п&#8217;ять років позбавлення волі. Звільнили як педагога фольклорного українського народного танцю у 1958 році після смерті Сталіна і повертається у&nbsp;Львів.</p>
+<p class="western" lang="ru-RU">У 1959 році на Київській кіностудії імені Олександра Довженка ставить танці і знімається у ролі Весельчака у фільмі «Олекса Довбуш». У 1960 році працює балетмейстером Львівського театру ім. М.Заньковецької. У 1969 році ансамбль «Галичина» під керівництвом Ярослава Чуперчука  став Лауреатом 34-ого міжнародного фестивалю фольклорних колективів у&nbsp;Ніцці.</p>
+<p class="western">У 1972 році у видавництві «Мистецтво» виходить книжка записів танців Ярослава Чуперчука  «Голубка». Саме вона дала можливість поширювати українські танці далеко за межами&nbsp;України.</p>
+<p class="western">9 вересня 2004 року перестало битися серце хореографа. Похоронений він на Личаківському кладовищі серед побратимів ОУН-УПА.<a href="/korg/kol/portals/teatr/page/legendy/chuperchuk/04_gallery.jpg" rel="Жіночий склад Гуцульського балету під керівництвом Я. Чуперчука, 1943 р." title="Жіночий склад Гуцульського балету під керівництвом Я. Чуперчука, 1943 р."><img class="r lightbox" height="189" src="/korg/kol/portals/teatr/page/legendy/chuperchuk/04_index.jpg" title="Жіночий склад Гуцульського балету під керівництвом Я. Чуперчука, 1943 р." width="300"/></a></p></div>
+
+
+	<!-- end #mainContent --></div>
+
+
+
+
+
+
+<div id = "content_wrap"></div>
+ 	<div id = "footer">
+
+    	<center><table width="900">
+					<tr>
+						<td align="center">{% html_part "bottom" %}</td>
+						<td align="center">
+						</td>
+					</tr>
+		</table></center>
+  	<!-- end #footer --></div>
+
+<!-- end #container --></div>
+
+</body>
+</html>
+

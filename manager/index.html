@@ -1,0 +1,170 @@
+
+
+
+
+
+
+<html>
+<head>
+<title>
+    Керівництво театру
+ | Коломийський академічний обласний український драматичний театр імені Івана Озаркевича</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="{% block keywords %}{% endblock %}"/>
+<script type="text/javascript" src="/korg/portals/teatr/js/ddlevelsmenu.js"></script>
+<script type="text/javascript" src="/korg/js/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="/korg/js/jquery.lightbox-0.5-pack.js"></script>
+<link rel="stylesheet" type="text/css" href="/korg/css/jquery.lightbox-0.5.css" media="screen" />
+
+<link href="/korg/portals/teatr/css/ddlevelsmenu-base.css" rel="stylesheet" type="text/css"><link>
+<link href="/korg/portals/teatr/css/ddlevelsmenu-sidebar.css" rel="stylesheet" type="text/css"><link>
+<link href="/korg/portals/teatr/css/ddlevelsmenu-topbar.css" rel="stylesheet" type="text/css"><link>
+<link href="/korg/portals/teatr/css/style.css" rel="stylesheet" type="text/css"><link>
+<link href="/korg/portals/teatr/css/news.css" rel="stylesheet" type="text/css"><link>
+
+
+<link rel="stylesheet" type="text/css" href="/korg/css/skin.css"/>
+<link rel="stylesheet" type="text/css" href="/korg/css/jquery.jcarousel.css"/>
+
+<script language="JavaScript" src="/news_informer/" type="text/javascript"></script>
+
+<script type="text/javascript" src="/korg/js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('a:has(img.lightbox),a[rel*=lightbox]').lightBox();
+	$('#mycarousel').jcarousel({scroll:4});
+});
+</script>
+
+
+<link rel="shortcut icon" type="image/x-icon" href="/korg/portals/teatr/favicon.ico" />
+<link rel="icon" type="image/x-icon" href="/korg/portals/teatr/favicon.ico" />
+
+<script src="//www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+_uacct = "UA-2009340-1";
+urchinTracker();
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-62725968-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</head>
+<body class = "twoColFixLtHdr">
+<div id = "container">
+
+<div id="header" align="center">{%> html_part with {id: header % }}</div>
+
+
+
+
+<script type = "text/javascript">
+ddlevelsmenu.setup("ddtopmenubar", "topbar") //ddlevelsmenu.setup("mainmenuid", "topbar")
+</script>
+
+<div id = "ddtopmenubar" class = "wireframemenu">
+{% tree_menu main_teatr '' 'ul' 'li' %}
+</div>
+
+
+
+<div id="afishaContent">
+	<a href="/afisha/current/" style="color: #0A1281;" title = "Переглянути афішу на поточний місяць"> Афіша</a>
+    
+	{% html_part "left_column" %}
+<table width="95%" border="0"><tr><td><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2F%25D0%259A%25D0%25BE%25D0%25BB%25D0%25BE%25D0%25BC%25D0%25B8%25D0%25B9%25D1%2581%25D1%258C%25D0%25BA%25D0%25B8%25D0%25B9-%25D0%25B4%25D1%2580%25D0%25B0%25D0%25BC%25D0%25B0%25D1%2582%25D0%25B8%25D1%2587%25D0%25BD%25D0%25B8%25D0%25B9-%25D1%2582%25D0%25B5%25D0%25B0%25D1%2582%25D1%2580-%25D1%2596%25D0%25BC-%25D0%2586-%25D0%259E%25D0%25B7%25D0%25B0%25D1%2580%25D0%25BA%25D0%25B5%25D0%25B2%25D0%25B8%25D1%2587%25D0%25B0%2F463975003622818&amp;width=180&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:180px; height:360px;" allowTransparency="true"></iframe></td></tr></table>
+	<!-- end #afishaContent --></div>
+	
+
+	
+<div id = "newsContent">
+
+
+
+	<a href = "/news" style="color: #0A1281;" title = "Переглянути всі новини"> Усі новини</a>
+	
+	<!-- tag_name, news_count, "L"-with anounce, se1 - news_header_style, se2 - news_anounce_style, se6 -news_data_style-->
+	{% portal_informer 7 "" "se1" "se2" "se6"%}
+	
+
+	<!-- end #newsContent --></div>
+<div id = "mainContent">
+
+	<div id="content"><h3 style="text-align: center;">КЕРІВНИЙ&nbsp;СКЛАД</h3>
+<p><a href="/korg/kol/portals/teatr/page/manager/1_gallery.jpg" rel="" title><img class="l lightbox" height="113" src="/korg/kol/portals/teatr/page/manager/1_fh_gal_ix.jpg" width="75"/></a><br/>Чиборак&nbsp;Дмитро</p>
+<p>Народний артист&nbsp;України</p>
+<p>Директор&nbsp;театру</p>
+<p> <br/><br/><br/></p>
+<p>Заступник директора по&nbsp;господарству</p>
+<p>Безпалько Петро&nbsp;Петрович</p>
+<p> </p>
+<p> </p>
+<p><a href="/korg/kol/portals/teatr/page/manager/13_gallery.jpg" rel="" title><img class="l lightbox" height="113" src="/korg/kol/portals/teatr/page/manager/13_fh_gal_ix.jpg" width="75"/></a><br/>Мегерко&nbsp;Оксана</p>
+<p>Начальник адміністративного&nbsp;відділу</p>
+<p> </p>
+<p> </p>
+<p><a href="/korg/kol/portals/teatr/page/manager/12_gallery.jpg" rel="" title><img class="l lightbox" height="113" src="/korg/kol/portals/teatr/page/manager/12_fh_gal_ix.jpg" width="75"/></a></p>
+<p> </p>
+<p>Бідуляк&nbsp;Галина</p>
+<p>Головний&nbsp;бухгалтер</p>
+<p> </p>
+<p> </p>
+<h3 style="text-align: center;">ТВОРЧЕ&nbsp;КЕРІВНИЦТВО</h3>
+<p><a href="/korg/kol/portals/teatr/page/manager/1_gallery.jpg" rel="" title><img class="l lightbox" height="113" src="/korg/kol/portals/teatr/page/manager/1_fh_gal_ix.jpg" width="75"/></a></p>
+<p>Чиборак&nbsp;Дмитро</p>
+<p>Народний артист&nbsp;України</p>
+<p>Художній&nbsp;керівник</p>
+<p>  </p>
+<h3 style="text-align: center;"><img alt="" height="113" src="/korg/kol/portals/teatr/page/manager/komarova_fh_gal_ix.jpg" style="float: left;" width="75"/></h3>
+<p>    Комарова&nbsp;Надія</p>
+<p>    Заступник художнього керівника&nbsp;театру</p>
+<p>    Заслужена артистка&nbsp;України</p>
+<p> </p>
+<p><a href="/korg/kol/portals/teatr/page/manager/3_gallery.jpg" rel="" title><img class="l lightbox" height="113" src="/korg/kol/portals/teatr/page/manager/3_fh_gal_ix.jpg" width="75"/></a></p>
+<p>Руданець&nbsp;Ольга</p>
+<p>Керівник літературно-драматургічної&nbsp;частини</p>
+<p>Заслужений працівник культури&nbsp;України</p>
+<p> </p>
+<p><a href="/korg/kol/portals/teatr/page/manager/8_gallery.jpg" rel="" title><img class="l lightbox" height="113" src="/korg/kol/portals/teatr/page/manager/8_fh_gal_ix.jpg" width="75"/></a><br/>Воротняк&nbsp;Мирослава</p>
+<p>Балетмейстер</p>
+<p><span><span>Заслужений діяч мистецтв&nbsp;України</span></span></p>
+<p><span><span> </span></span></p>
+<p> </p></div>
+
+
+	<!-- end #mainContent --></div>
+
+
+
+
+
+
+<div id = "content_wrap"></div>
+ 	<div id = "footer">
+
+    	<center><table width="900">
+					<tr>
+						<td align="center">{% html_part "bottom" %}</td>
+						<td align="center">
+						</td>
+					</tr>
+		</table></center>
+  	<!-- end #footer --></div>
+
+<!-- end #container --></div>
+
+</body>
+</html>
+
