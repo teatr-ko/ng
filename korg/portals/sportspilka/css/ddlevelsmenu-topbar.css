@@ -1,0 +1,95 @@
+img.news_lead, img.l { float: left; margin-top: 5px; margin-right: 10px; border: 1px solid #e0d7bd; }
+img.news_body { float: left; margin-top: 5px; margin-right: 20px; border: 1px solid #e0d7bd; }
+img.news_body_bottom { margin-right: 10px; border: 1px solid #e0d7bd; }
+img.right { float: right; margin-top: 3px; margin-bottom: 3px; margin-right: 20px; margin-left: 20px; border: 0; }
+
+img.news_body, #content img.l { 
+	float: left; margin-top: 5px; margin-right: 20px; border: 1px solid #e0d7bd; 
+}
+#content img.r { 
+	float: right; margin-top: 5px; margin-left: 20px; border: 1px solid #e0d7bd; 
+}
+img.news_body_bottom, #content img { 
+	margin-right: 10px; border: 1px solid #e0d7bd; 
+}
+
+
+/* ######### Chrome Main Menu Bar CSS ######### */
+
+.chromemenu{
+width: 100%;
+font-weight: bold;
+}
+
+.chromemenu:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.chromemenu ul{
+border: 1px solid #BBB;
+background: url(chromebg.gif) center center repeat-x;
+margin: 0;
+padding: 7px 0;
+text-align: center; /*set value to "right" for example to align menu to the left of page*/
+}
+
+.chromemenu ul li{
+display: inline;
+}
+
+.chromemenu ul li a{
+color: #494949;
+padding: 7px;
+margin: 0;
+text-decoration: none;
+border-right: 1px solid #DADADA;
+}
+
+.chromemenu ul li a:hover{
+background: url(chromebg2.gif) center center repeat-x;
+}
+
+.chromemenu ul li a.selected{
+background: url(chromebg2.gif) center center repeat-x;
+}
+
+/* ######### Wire Frame Menu CSS ######### */
+ 
+.wireframemenu{
+	border-top: solid 3px #009537; 
+	border-bottom: solid 1px #009537; 
+
+width: 100%;
+
+}
+.wireframemenu ul{
+/*padding: 6px 0 6px 0; 1st and 3rd value should equal 1st and 3rd values of "padding" for link itself (see ul li a)*/
+padding: 5px 0 5px 0;
+margin: 0;
+text-align: center; /*set value to "left", "center", or "right"*/
+}
+
+.wireframemenu ul li{
+display: inline;
+}
+
+.wireframemenu ul li a{
+color: #009537;
+padding: 6px 45px 6px 10px;
+margin: 0;
+text-decoration: none;
+/*border-left: 1px solid gray;*/
+font-weight: bold;
+}
+
+.wireframemenu ul li a:hover, .wireframemenu ul li a.selected{
+
+color: #0000C6;
+
+}
+
+
